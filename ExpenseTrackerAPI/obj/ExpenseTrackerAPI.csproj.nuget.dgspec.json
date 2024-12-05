@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/JM/Desktop/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj": {}
+    "/Users/JM/Desktop/ExpenseTracker/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj": {}
   },
   "projects": {
-    "/Users/JM/Desktop/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj": {
+    "/Users/JM/Desktop/ExpenseTracker/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JM/Desktop/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj",
+        "projectUniqueName": "/Users/JM/Desktop/ExpenseTracker/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj",
         "projectName": "ExpenseTrackerAPI",
-        "projectPath": "/Users/JM/Desktop/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj",
+        "projectPath": "/Users/JM/Desktop/ExpenseTracker/ExpenseTrackerAPI/ExpenseTrackerAPI.csproj",
         "packagesPath": "/Users/JM/.nuget/packages/",
-        "outputPath": "/Users/JM/Desktop/ExpenseTrackerAPI/obj/",
+        "outputPath": "/Users/JM/Desktop/ExpenseTracker/ExpenseTrackerAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/JM/.nuget/NuGet/NuGet.Config"
@@ -47,6 +47,24 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
